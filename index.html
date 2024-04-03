@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>MSprot</title>
+        <link rel="stylesheet" href="style.css"/>
+        <link rel="icon" href="favicon.png"/>
+    </head>
+    <body class="body" onkeyup="keycheck(event);" > 
+        <div class="menuBar" id="menuBar">
+            <img src="background4.png" class="background4" id="background4"/>
+            <div class="restart" id="restart" onclick="reload()">Restart</div>
+            <div class="gameSetting" id="gameSetting1" onclick="gameSetting();">Setting</div>
+            <div class="menuSlide" id="menuSlide">Coming Soon<br/>New Version</div>
+        </div>     
+        <div class="openingPage" id="openingPage" onmouseenter="clickScreen()">
+            <div class="EnterGame" >
+
+                <div class="ninjaHealthBar" id="ninjaHealthBar">
+                    <div class="ninjaHealth" id="ninjaHealth"></div>
+                </div>
+
+                <div class="ninjaImage1" id="ninjaImage1"></div>
+
+
+                <div class="zombiHealthBar" id="zombiHealthBar">
+                     <div class="zombiHealth" id="zombiHealth"></div>
+                </div>
+
+                <div class="zombiImage1" id="zombiImage1"></div>
+                <div class="score" id="score">1</div>
+                <img src="zombiImage1.png" class="zombiImage1" alt="Zombie"/>
+                <div class="background2" ></div>
+                
+            </div>
+            
+            <video class="backgroundvideo1" autoplay="" loop="" muted="">
+                <source src="backgroundvideo1.mp4"/>
+            </video>
+            <div class="footer1">© 2023 - Master - All rights reserved</div>
+        </div>
+        <div class="startButton" id="startButton" onclick="startGame();">Start Game</div>
+    
+        <div class="gamePage" id="gamePage">
+
+            <div class="menu" id="menu" onclick="openMenu();">
+                <div class="menu-bar1"></div>            
+                <div class="menu-bar2"></div>
+                <div class="menu-bar3"></div>
+             </div>    
+             <div class="background" id="background">
+                <img src="Ninja B Idle (1).png" class="ninja" id="ninja" alt="Ninja"/> 
+                <img src="Zombi B Idle (1).png" class="zombi0" id="zombi0" alt="Zombi"/>
+                
+             </div>
+             
+             <div class="footer2">
+     
+             </div>
+        </div>
+       <div class="endingPage" id="endingPage">
+        <div class="win_fail" id="win-fail">Your Game Over</div>
+       </div>
+        
+
+
+        <script src="script.js"></script>
+    </body>
+</html>

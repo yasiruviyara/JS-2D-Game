@@ -1,0 +1,380 @@
+*{
+    box-sizing: border-box;
+}
+
+.body{
+    margin: 0px;
+    overflow: hidden;
+}
+
+.openingPage{
+    width: 100vw;
+    height: 100vh;
+    background-color:rgb(0, 2, 34);
+    /* background-image: url("background1.png"); */
+    background-size: cover;
+    position: absolute;
+    visibility:visible;
+
+}
+.EnterGame{
+    width: 85vw;
+    height: 400px;
+    position: absolute;
+    background-color: rgb(11, 1, 28);
+    margin-top: 100px;
+    margin-left: 100px;
+    display: flex;
+    border-radius:6% ;
+    border: 2px solid white;
+    
+}
+.ninjaImage1{
+    width: 320px;
+    height: 200px;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 90px;
+    background-color: transparent;
+    background-image: url("ninjaImage1.png");
+    background-size: cover;
+    
+}
+.zombiImage1{
+    width: 320px;
+    height: 200px;
+    position:absolute;
+    margin-top: 100px;
+    margin-left: 760px;
+    background-color: transparent;
+    background-image: url("zombiImage1.png");
+    background-size: cover;
+}
+.background2{
+    width: 500px;
+    height: 180px;
+    /* position: absolute; */
+    background-color: transparent;
+    background-image: url("background2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 310px;
+    margin-top: 50px;
+}
+.startButton{
+    width: 200px;
+    height: 50px;
+    position: absolute;
+    border: 0px;
+    background-color:rgb(197, 195, 195);
+    margin-top: 400px;
+    margin-left: 580px;
+    color:red;
+    font-size: 24px;
+    font-family:"Cambria";
+    font-weight: 800;
+    border: 5px solid;
+    border-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: visible;
+
+}
+.backgroundvideo1{
+    width:100vw;
+    height: 85vh;
+    object-fit: cover;
+    border: 0px;
+    margin: 0px;
+    
+}
+.footer1{
+    width: 100vw;
+    height: 14vh;
+    background-color: rgb(0, 2, 34);
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.footer2{
+    width: 100%;
+    height: 20vh;
+    background-color: rgb(10, 10, 37);
+    position: absolute;
+}
+
+
+.gamePage{
+    width: 100vw;
+    height: 100vh;
+    background-color: blue;
+    visibility: hidden;
+    /* position: absolute; */
+    
+}
+
+
+.menuBar{
+    width:100vw;
+    height:100vh;
+    background-color:rgb(8, 0, 255);
+    position: absolute;
+    visibility: hidden;
+    background-image: url("background3.png");
+    background-size: cover;
+}
+
+.background4{
+    width:100vw;
+    height:100vh;
+    background-color:rgb(8, 0, 255);
+    position: absolute;
+    visibility: hidden;
+    background-image: url("background4.png");
+    background-size: cover;
+    visibility: hidden;
+}
+
+
+.restart{
+    width: 200px;
+    height: 50px;
+    position: absolute;
+    border: 0px;
+    background-color:rgb(197, 195, 195);
+    margin-top: 320px;
+    margin-left: 50px;
+    color:red;
+    font-size: 24px;
+    font-family:"Cambria";
+    font-weight: 800;
+    border: 5px solid;
+    border-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+
+}
+
+.gameSetting{
+    width: 200px;
+    height: 50px;
+    position: absolute;
+    border: 0px;
+    background-color:rgb(197, 195, 195);
+    margin-top: 400px;
+    margin-left: 50px;
+    color:red;
+    font-size: 24px;
+    font-family:"Cambria";
+    font-weight: 800;
+    border: 5px solid;
+    border-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* visibility: hidden; */
+
+}
+.menuSlide{
+    width: 75vw;
+    height: 90vh;
+    background-color: white;
+    margin-top: 30px;
+    margin-left: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: blue;
+    font-size: 48px;
+    font-family:"Cambria";
+    font-weight: 800;
+    visibility: hidden;
+}
+.menuSlide2{
+    width: 75vw;
+    height: 90vh;
+    background-color: white;
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: blue;
+    font-size: 48px;
+    font-family:"Cambria";
+    font-weight: 800;
+    visibility: hidden;
+}
+
+.ninjaHealth{
+    width: 350px;
+    height: 40px;
+    background-color: rgb(4, 255, 4);
+    position: absolute;
+    margin-top: 3px;
+    margin-left: 42px;   
+    visibility: hidden;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+.zombiHealth{
+    width: 350px;
+    height: 40px;
+    background-color: rgb(4, 255, 4);
+    position:absolute; 
+    margin-top: 3px;
+    margin-left: 5px;
+    border: 2px solid black;
+    border-radius: 20px; 
+    visibility: hidden;
+    
+}
+
+
+.ninjaHealthBar{
+    width: 400px;
+    height: 50px;
+    background-color:rgb(66, 73, 70);
+    position: absolute;
+    margin-top: -50px;
+    margin-left: 70px;   
+    visibility: hidden;
+    border: 2px solid;
+    border-radius: 20px;
+}
+.zombiHealthBar{
+    width: 400px;
+    height: 50px;
+    background-color: rgb(66, 73, 70);
+    position:fixed;  
+    margin-top: -50px;
+    margin-left: 730px;
+    border: 2px solid;
+    border-radius: 20px; 
+    visibility: hidden;
+    
+}
+
+.score{
+    width: 115px;
+    height: 90px;
+    background-color: rgb(66, 73, 70);
+    position: absolute;
+    visibility:visible;
+    border-radius: 30%;
+    margin-top: -80px;
+    margin-left: 540px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-weight: 800;
+    color: white;
+    font-family:"Cambria";
+    border: 2px solid black;
+    visibility: hidden;
+}
+
+.endingPage{
+    width: 100px;
+    height: 100px;
+    background-color:red;
+    position: absolute;
+}
+
+
+
+
+
+
+
+
+
+.menu{
+    width: 5vw;
+    height: 7vh;
+    background-color:white;
+    position:absolute;
+    margin-top: 2vh;
+    margin-left: 1vw;
+    padding: 10px;
+    visibility: visible;
+    
+}
+.menu-bar1{
+    width: 4vw;
+    height: 5px;
+    margin-left: -0.2vw;
+    background-color: black;    
+    /* position: fixed;  */
+    /* border-radius: 20%; */
+
+}
+.menu-bar2{
+    width: 4vw;
+    height: 5px;
+    background-color: black;  
+    margin-left: -0.2vw;  
+    /* position: fixed; */
+    margin-top: 5px;   
+    /* border-radius: 20%;  */
+}
+.menu-bar3{
+    width: 4vw;
+    height: 5px;
+    background-color: black; 
+    margin-left: -0.2vw;   
+    /* position: fixed; */
+    margin-top: 5px; 
+    /* border-radius: 20%;    */
+}
+
+.background{
+    width: 100%;
+    height: 88vh;
+    background-image: url("background1.png");
+    background-repeat: repeat-x;
+    background-size:100% 88vh;
+
+    
+}
+
+.ninja{
+    height: 200px;
+    margin-top: 334px;
+    margin-left: 100px;
+    position: absolute;
+}
+
+
+
+
+.zombi0{
+    height: 200px;
+    width: 150px;
+    margin-top: 340px;
+    margin-left: 1500px;
+    position: absolute;
+    /* background-color: red; */
+    background-size: cover;
+}
+
+.zombi{
+    height: 200px;
+    width: 150px;
+    margin-top: 334px;
+    margin-left: 500px;
+    position: absolute;
+    /* background-color: red; */
+    background-image: url("Zombi B Idle (1).png");
+    background-size: cover;
+}
